@@ -1,13 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+  outline: none;
+
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --primary-color: #281f6e;
+  --primary-colorRGB: 40 31 110;
+  --secondary-color: #f5a31c;
+  --secondary-colorRGB: 245 163 28;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+html {
+  -webkit-text-size-adjust: 100%;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+body,
+button,
+input,
+label,
+select,
+td,
+textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+._a3gq {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+  position: relative;
+}
+
+._a3gq div,
+._a3gq span,
+._a3gq applet,
+._a3gq object,
+._a3gq iframe,
+._a3gq h1,
+._a3gq h2,
+._a3gq h3,
+._a3gq h4,
+._a3gq h5,
+._a3gq h6,
+._a3gq p,
+._a3gq blockquote,
+._a3gq pre,
+._a3gq a,
+._a3gq abbr,
+._a3gq acronym,
+._a3gq address,
+._a3gq big,
+._a3gq cite,
+._a3gq code,
+._a3gq del,
+._a3gq dfn,
+._a3gq em,
+._a3gq img,
+._a3gq ins,
+._a3gq kbd,
+._a3gq q,
+._a3gq s,
+._a3gq samp,
+._a3gq small,
+._a3gq strike,
+._a3gq strong,
+._a3gq sub,
+._a3gq sup,
+._a3gq tt,
+._a3gq var,
+._a3gq b,
+._a3gq u,
+._a3gq i,
+._a3gq center,
+._a3gq dl,
+._a3gq dt,
+._a3gq dd,
+._a3gq ol,
+._a3gq ul,
+._a3gq li,
+._a3gq fieldset,
+._a3gq form,
+._a3gq label,
+._a3gq legend,
+._a3gq table,
+._a3gq caption,
+._a3gq tbody,
+._a3gq tfoot,
+._a3gq thead,
+._a3gq tr,
+._a3gq th,
+._a3gq td,
+._a3gq article,
+._a3gq aside,
+._a3gq canvas,
+._a3gq details,
+._a3gq embed,
+._a3gq figure,
+._a3gq figcaption,
+._a3gq footer,
+._a3gq header,
+._a3gq hgroup,
+._a3gq menu,
+._a3gq nav,
+._a3gq output,
+._a3gq ruby,
+._a3gq section,
+._a3gq summary,
+._a3gq time,
+._a3gq mark,
+._a3gq audio,
+._a3gq video {
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+color: black;
+  vertical-align: baseline;
+}
+
+._a3gq article,
+._a3gq div,
+._a3gq footer,
+._a3gq header,
+._a3gq main,
+._a3gq nav,
+._a3gq section,
+._a3gq #react-root {
+  display: flex;
+  flex-direction: column;
+
+  align-items: stretch;
+
+  flex-shrink: 0;
+  background-color: #fff;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }

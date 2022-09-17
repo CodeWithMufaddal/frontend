@@ -1,0 +1,26 @@
+._a3gq .inwardHistory {
+   height: 100%;
+   border: 1px solid var(--primary-color);
+}
+
+._a3gq .downloadPanel {
+   border: 1px solid var(--primary-color);
+   display: flex;
+
+}
+._a3gq .downloadbtn {
+   border: 1px solid var(--primary-color);
+   background-color: var(--secondary-color);
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding: 5px ;
+   margin: 5px;
+   font-size: 14px;
+   border-radius: 3px;
+   color: white;
+}
+
+   ._a3gq .downloadDiv {
+      display: flex;
+      flex-direction: row;
+   }
